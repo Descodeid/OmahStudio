@@ -1,0 +1,185 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container {
+    margin-left: 75px;
+    padding: 0;
+    height: 810px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo .ellipse {
+    margin-top: 9px;
+    height: 6px;
+    width: 6px;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 50%;
+}
+
+.logo .logo-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 1);
+}
+
+.logo .logo-text h3 {
+    font-size: 35px;
+}
+
+.logo .logo-text  h3 .lighter {
+    position: absolute;
+    font-size: 13px;
+    font-weight: 600;
+    top: 74px;
+    left: 115px;
+}
+
+.navbar nav {
+    margin-top: 46px;
+    margin-left: 108px;
+    display: flex;
+    justify-content: space-between;
+    width: 637px;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar nav li a {
+    color: rgba(47, 53, 66, 1);
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+nav li .dotted-active {
+    height: 5px;
+    width: 5px;
+    background-color: rgba(47, 53, 66, 1);
+    border: 1px solid rgba(47, 53, 66, 1);
+    border-radius: 50%;
+}
+
+nav li .dotted {
+    height: 5px;
+    width: 5px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+nav li .dotted:hover {
+    background-color: rgba(47, 53, 66, 1);
+    border-color: rgba(47, 53, 66, 1);
+}
+
+.navbar .search img {
+    height: 17.05px;
+    width: 17.05px;
+    margin-top: 51px;
+    cursor: pointer;
+}
+
+.navbar .toggle-menu img {
+    margin-top: 50px;
+    margin-right: 75px;
+}
+
+.hero .big-title {
+    margin-top: 58px;
+    margin-left: 75px;
+    font-size: 200px;
+    font-weight: 700;
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 1);
+    -webkit-text-fill-color: transparent;
+}
+
+.hero .motto {
+    margin-top: -44px;
+    font-size: 40px;
+    font-weight: 700;
+    width: 441px;
+    letter-spacing: -0.3px;
+    margin-left: 89px;
+    color: rgba(47, 53, 66, 1);
+}
+
+.bg-image img {
+    position: absolute;
+    top: 0;
+    right: -142px;
+    z-index: -999;
+    height: 850px;
+}
+
+.hero button {
+    font-size: 16px;
+    padding: 13px 41px;
+    color: rgba(47, 53, 66, 1);
+    margin-top: 20px;
+    margin-left: 89px;
+    border: 2px solid #747D8C;
+    background: transparent;
+}
+
+.hero button:hover{
+    transform: scale(0.97);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+footer .social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 278px;
+    float: right;
+    margin: 55px 75px;
+}
+
+footer .social-media a img {
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        margin-left: 75px;
+        padding: 0;
+        height: 764px;
+    }
+
+    .bg-image img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -999;
+        height: 800px;
+    }
+}
